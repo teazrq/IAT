@@ -64,11 +64,11 @@ define(['https://pcplab.sfo2.digitaloceanspaces.com/common/qiat.js'], function (
          */
         preTaskInstructions: [
             '<div style="color: white; text-align: left;">',
-            '<div>Please make sure that you have read the instructions thoroughly before continuing to the next page.</div><div>In the next task, you will need to classify words/phrases into categories.<br>',
+            '<div>Please make sure that you have read the instructions thoroughly before continuing to the next page.</div><div>In the next task, you will need to classify sentences into categories.<br>',
             'Please do this as quickly as you can, while making as few mistakes as possible.<br>',
             'These are the four categories into which you will classify the sentences:</div>',
-            '<font color="#FFFF00">Type 1 </font> for <font color="#00FFFF">True </font> <br>'
-            '<font color="#FFFF00">Type 2 </font> for <font color="#00FFFF">False </font>',
+            '<font color="#FFFF00">Type 1<br>Type 2</font><br>',
+            '<font color="#00FFFF">True<br>False</font>',
             '<div><br>To continue reading the instructions, press the space bar.</div>',
             '</div>'
         ].join('\n'),
